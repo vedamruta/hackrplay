@@ -284,6 +284,8 @@ span {
   padding-top: 8rem;
   /* height: 100vh; */
   display: flex;
+  gap: 4rem;
+  align-items: center;
   /* justify-content: center; */
 }
 
@@ -362,6 +364,14 @@ footer {
     text-align: center;
 }
 
+.learn h1, .practise h1 {
+  text-align: center;
+}
+
+.practise .box {
+  margin: 1rem auto;
+}
+
 @media screen and (min-width: 1300px) {
   .home__container {
     display: flex;
@@ -387,4 +397,9 @@ footer {
 
 .practise .box {
   margin: 1rem auto;
+}
+@media screen and (max-width: 1299px) {
+  .home__container {
+    flex-direction: column;
+  }
 }
