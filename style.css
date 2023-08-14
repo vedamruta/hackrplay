@@ -361,3 +361,30 @@ footer {
     color: var(--white-color);
     text-align: center;
 }
+
+@media screen and (min-width: 1300px) {
+  .home__container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .home__content {
+    width: 40%;
+  }
+  .illustration {
+    width: 45%;
+  }
+}
+
+.learn h1 {
+  margin-bottom: 1rem;
+}
+
+.learn h1, .practise h1 {
+  text-align: center;
+}
+
+.practise .box {
+  margin: 1rem auto;
+}

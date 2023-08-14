@@ -24,8 +24,6 @@ function removeAfterClick() {
 }
 navLinks.forEach(navLink => navLink.addEventListener('click', removeAfterClick));
 
-/*=============== CHANGE BACKGROUND HEADER ===============*/
-
 
 /*=============== CANVAS ===============*/
 const canvas = document.getElementById('canvas');
